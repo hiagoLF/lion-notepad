@@ -1,13 +1,15 @@
 {
   "expo": {
-    "name": "notepad",
-    "slug": "notepad",
+    "name": "Lion Notepad",
+    "description": "Um símples gerenciador de notas scritas",
+    "slug": "lion-notepad",
+    "owner": "hiagolf",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
-      "resizeMode": "contain",
+      "resizeMode": "cover",
       "backgroundColor": "#ffffff"
     },
     "updates": {
@@ -23,7 +25,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.notepad"
     },
     "web": {
       "favicon": "./assets/favicon.png"
