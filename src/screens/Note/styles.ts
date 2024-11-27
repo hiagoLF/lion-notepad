@@ -2,7 +2,7 @@ import styled from 'styled-components/native';
 import { TextInput } from "react-native-paper";
 
 
-export const NoteScreenContainer = styled.View`
+export const NoteScreenContainer = styled.ScrollView`
   width: 100%;
   flex: 1;
 `;
